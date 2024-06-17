@@ -3,3 +3,12 @@ major-version-bump-message: "^(build|chore|ci|docs|feat|fix|perf|refactor|revert
 minor-version-bump-message: "^(feat)(\\([\\w\\s-]*\\))?:"
 patch-version-bump-message: "^(build|chore|ci|docs|fix|perf|refactor|revert|style|test)(\\([\\w\\s-]*\\))?:"
 commit-message-incrementing: MergeMessageOnly
+branches:
+  main:
+    increment: None
+  feature:
+    increment: None
+  hotfix:
+    increment: None
+  support:
+    increment: None
